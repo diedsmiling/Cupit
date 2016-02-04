@@ -1,0 +1,24 @@
+{
+  "name": "cupit",
+  "version": "0.1.0",
+  "description": "Library for counting standings in sports competitions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diedsmiling/Cupit.git"
+  },
+  "keywords": [
+    "Sport",
+    "football",
+    "standings"
+  ],
+  "author": "Lazarev Alexandr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diedsmiling/Cupit/issues"
+  },
+  "homepage": "https://github.com/diedsmiling/Cupit#readme"
+}
