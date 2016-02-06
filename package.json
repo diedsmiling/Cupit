@@ -4,7 +4,7 @@
   "description": "Library for counting standings in sports competitions.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/mocha/bin/mocha -r tests/test_helper.js -R spec tests/specs/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -15,10 +15,17 @@
     "football",
     "standings"
   ],
-  "author": "Lazarev Alexandr",
+  "author": "Lazarev Alexandr <diedsmiling@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/diedsmiling/Cupit/issues"
   },
-  "homepage": "https://github.com/diedsmiling/Cupit#readme"
+  "homepage": "https://github.com/diedsmiling/Cupit#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "proxyquire": "^1.7.4",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0"
+  }
 }
